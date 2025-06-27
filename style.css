@@ -197,9 +197,10 @@ body {
 }
 
 /* Tablet */
-@media (max-width: 758px) {
-  html {
-    font-size: 62.5%;
+@media (max-width: 768px) {
+  .header-content {
+    padding: 10px;
+    width: 95%;
   }
   .navbar .navbar-nav {
     position: absolute;
