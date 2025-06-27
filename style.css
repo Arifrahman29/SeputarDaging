@@ -139,9 +139,11 @@ body {
   padding: 20px;
 }
 .container .sapi {
-  width: 250px;
+  width: 500px;
   height: auto;
   border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
 }
 .content,
 .sapii {
