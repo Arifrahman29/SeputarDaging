@@ -138,11 +138,11 @@ body {
   margin: auto;
   padding: 20px;
 }
-.container .sapi img {
-  width: 500px;
+.container .sapi {
+  width: 400px;
   height: auto;
   border-radius: 8px;
-  width: 400px;
+  width: 100%;
   max-width: 90%;
 }
 .content,
@@ -181,14 +181,31 @@ body {
   width: 250px;
   height: auto;
   border-radius: 8px;
+  width: 90%;
+  max-width: 300px;
 }
 
 .sapii .deskripsi {
-  max-width: 600px;
+  max-width: 95%;
 }
 
 .sapii .deskripsi p {
   text-align: justify;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #b71c1c;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  max-width: 95%;
+}
+.btn:hover {
+  background-color: #880000;
 }
 
 /* laptop */
@@ -219,6 +236,39 @@ body {
   html {
     font-size: 55%;
   }
+}
+
+@media (max-width: 768px) {
+  .video {
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+.video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 200px auto;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-top: 40px;
+}
+.video h2 {
+  color: #a61b1b;
 }
 .contact {
   background-color: #f7eaea;
