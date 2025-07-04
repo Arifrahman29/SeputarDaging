@@ -266,6 +266,7 @@ body {
   height: 100%;
   border: none;
   margin-top: 60px;
+  padding-top: 10px;
 }
 .video h2 {
   color: #a61b1b;
